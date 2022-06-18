@@ -256,7 +256,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         <div className="p">
         </div>
         <Malleable id="explanation-1" isActive={isEdit} edits={edits}>
-        Your website just has to provide prove you are an Arch Linux user to get your own free ArchLinux.cyou subdomain for your website<br />
+        Your website just has to provide prove you are an Arch Linux user to get your own free ArchLinux.cyou subdomain for your website.<br />
         </Malleable>
         <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
         Start now?
@@ -270,7 +270,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           >
             Github repository 
           </a> {' '}
-          to create a new issues
+          to create a new issues.
         </Malleable>
         <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
         Warning
