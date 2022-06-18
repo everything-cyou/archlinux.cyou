@@ -2,7 +2,7 @@ import S3 from 'aws-sdk/clients/s3';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { useCallback, useRef, useState } from 'react';
-import Edit from '../components/edit';
+// import Edit from '../components/edit';
 import { ErrorDialog } from '../components/error';
 import { ShareLinkDialog } from '../components/home/ShareLinkDialog';
 import Malleable, { FieldEdit } from '../components/malleable';
