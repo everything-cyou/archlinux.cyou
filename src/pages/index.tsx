@@ -209,7 +209,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Free
+            Forever free
           </Malleable>
         </div>
         <div className="feature">
