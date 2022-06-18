@@ -278,6 +278,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           As the owner of the repository, you keep complete control over your published content. But that also means that all rights and duties that come along with publishing a website remain in your responsibility.
         </Malleable>
+        <Malleable as="h2" id="title-5" isActive={isEdit} edits={edits}>
+        Sponsor
+      </Malleable>
+      <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
+      TRC20-USDT:TLUYnuTD9BSq9qq5JxSsEczCDs2Ws7jPyQ<br />
+        </Malleable>
       </div>
     </>
   );
