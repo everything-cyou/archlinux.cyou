@@ -261,12 +261,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <a
             target="_blank"
             rel="noopener"
-            href="https://github.com/archlinux-cyou/archlinux.cyou/pulls"
+            href="https://github.com/archlinux-cyou/archlinux.cyou/issues"
           >
             Github repository 
           </a>
-          
-        to PR
+
+        to send a new issues
         </Malleable>
         <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
         Warning
