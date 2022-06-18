@@ -191,7 +191,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
   return (
     <>
       <Malleable id="title" as="h1" isActive={isEdit} edits={edits}>
-      <img src="https://raw.githubusercontent.com/archlinux-cyou/archlinux.cyou/master/archlinux-dot-cyou-v1-transparent.png" alt="ArchLinux.cyou" width="200">
+      <Image src="https://raw.githubusercontent.com/archlinux-cyou/archlinux.cyou/master/archlinux-dot-cyou-v1-transparent.png" alt="ArchLinux.cyou" width="200" />
       </Malleable>
       <div className="features">
         <div className="feature">
