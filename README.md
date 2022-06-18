@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/archlinux-cyou/archlinux.cyou/archlinux-dot-cyou-v1-transparent.png" alt="ArchLinux.cyou" width="400">
+  <img src="https://raw.githubusercontent.com/archlinux-cyou/archlinux.cyou/master/archlinux-dot-cyou-v1-transparent.png" alt="ArchLinux.cyou" width="400">
   <br>ArchLinux.cyou<br>
 
 </h1>
