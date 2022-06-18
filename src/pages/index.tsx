@@ -248,9 +248,18 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         Your website just has to provide prove you are an Arch Linux user to get your own free ArchLinux.cyou subdomain for your website.<br />
         </Malleable>
         <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
-        Start now?
+        Principe
       </Malleable>
       <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
+      If your website is not related to Arch Linux content, we accept your request subject to the following conditions<br />
+      Your site cannot have pornographic content<br />
+      Your website cannot contain racist content<br />
+      Your site cannot contain content that discriminates against a certain group<br />
+        </Malleable>
+        <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
+        Start now?
+      </Malleable>
+      <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           Please go to our {' '}
           <a
             target="_blank"
@@ -261,23 +270,23 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           </a> {' '}
           to create a new issues.
         </Malleable>
-        <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
+        <Malleable as="h2" id="title-5" isActive={isEdit} edits={edits}>
         Warning
       </Malleable>
-        <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
+        <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
           As the owner of the repository, you keep complete control over your published content. But that also means that all rights and duties that come along with publishing a website remain in your responsibility.
         </Malleable>
-        <Malleable as="h2" id="title-5" isActive={isEdit} edits={edits}>
+        <Malleable as="h2" id="title-6" isActive={isEdit} edits={edits}>
         Thanks
       </Malleable>
-      <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
+      <Malleable id="explanation-5" isActive={isEdit} edits={edits}>
       Thanks to Cloudflare for their superb DNS service that makes this possible.<br />
       Thanks to Vercel for their awesome hosting service that makes this possible.<br />
         </Malleable>
-        <Malleable as="h2" id="title-6" isActive={isEdit} edits={edits}>
+        <Malleable as="h2" id="title-7" isActive={isEdit} edits={edits}>
         Sponsor
       </Malleable>
-      <Malleable id="explanation-5" isActive={isEdit} edits={edits}>
+      <Malleable id="explanation-6" isActive={isEdit} edits={edits}>
       TRC20-USDT:TLUYnuTD9BSq9qq5JxSsEczCDs2Ws7jPyQ<br />
         </Malleable>
       </div>
