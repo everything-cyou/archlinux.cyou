@@ -268,9 +268,16 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           As the owner of the repository, you keep complete control over your published content. But that also means that all rights and duties that come along with publishing a website remain in your responsibility.
         </Malleable>
         <Malleable as="h2" id="title-5" isActive={isEdit} edits={edits}>
-        Sponsor
+        Thanks
       </Malleable>
       <Malleable id="explanation-4" isActive={isEdit} edits={edits}>
+      Thanks to Cloudflare for their superb DNS service that makes this possible.<br />
+      Thanks to Vercel for their awesome hosting service that makes this possible.<br />
+        </Malleable>
+        <Malleable as="h2" id="title-6" isActive={isEdit} edits={edits}>
+        Sponsor
+      </Malleable>
+      <Malleable id="explanation-5" isActive={isEdit} edits={edits}>
       TRC20-USDT:TLUYnuTD9BSq9qq5JxSsEczCDs2Ws7jPyQ<br />
         </Malleable>
       </div>
