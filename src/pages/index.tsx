@@ -254,7 +254,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
       If your website is not related to Arch Linux content, we accept your request subject to the following conditions.<br />
       1.Your site cannot have pornographic content<br />
       2.Your website cannot contain racist content<br />
-      3.Your site cannot contain content that discriminates against a certain group<br />
+      3.Your site cannot contain content that discriminates against a certain group (such as LGBTQ🏳️‍🌈 and Transgender🏳️‍⚧️)<br />
         </Malleable>
         <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
         Start now?
