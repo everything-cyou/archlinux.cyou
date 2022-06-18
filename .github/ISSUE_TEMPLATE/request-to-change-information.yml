@@ -1,4 +1,4 @@
-name: 2 - Request to change information
+name: 2.Request to change information
 description: Select this if you would like to request an change to your information
 labels: ["Change information"]
 assignees:
