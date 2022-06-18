@@ -181,7 +181,7 @@ export default function Home(props) {
           />
         </>
       ) : (
-        <Edit onClick={toggleEdit} />
+        // <Edit onClick={toggleEdit} />
       )}
     </>
   );
