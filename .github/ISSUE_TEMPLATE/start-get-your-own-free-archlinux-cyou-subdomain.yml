@@ -40,7 +40,7 @@ body:
       label: Resolution content
       description: |
         Support IP or domains
-      placeholder: ex. 1.1.1.1
+      placeholder: ex. 1.1.1.1 or your-user-name.github.io
     validations:
       required: true
   - type: input
