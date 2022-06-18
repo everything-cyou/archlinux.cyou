@@ -8,3 +8,5 @@
   <p align="center">
 Free subdomain for Arch Linux Lovers!
   </p>
+
+More information,please visit archlinux.cyou
