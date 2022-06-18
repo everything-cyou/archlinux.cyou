@@ -25,6 +25,15 @@ body:
       placeholder: ex. https://wow.github.io or 1.1.1.1
     validations:
       required: true
+  - type: input
+    id: subdomain
+    attributes:
+      label: What do you want your subdomain prefix to be?
+      description: |
+        such as xxx.archlinux.cyou
+      placeholder: ex. xxx.archlinux.cyou
+    validations:
+      required: true
   - type: textarea
     id: content
     attributes:
