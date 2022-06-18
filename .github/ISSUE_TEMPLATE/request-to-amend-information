@@ -1,0 +1,45 @@
+name: Request to amend information
+description: Select this if you would like to request an amendment to your information
+labels: ["Applying"]
+assignees:
+  - linlinzzo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please write "your website name" in the title!
+  - type: input
+    id: name
+    attributes:
+      label: The website name
+      description: will show it in README.md
+      placeholder: ex. My blog
+    validations:
+      required: true
+  - type: input
+    id: subdomain
+    attributes:
+      label: What do you want your new subdomain prefix to be?
+      description: |
+        such as xxx.archlinux.cyou
+      placeholder: ex. xxx.archlinux.cyou
+    validations:
+      required: true
+  - type: input
+    id: resolution-type
+    attributes:
+      label: Resolution type
+      description: |
+        Support A,AAAA,CNAME
+      placeholder: ex. A
+    validations:
+      required: true
+  - type: input
+    id: resolution-content
+    attributes:
+      label: Resolution content
+      description: |
+        Support IP or domains
+      placeholder: ex. 1.1.1.1
+    validations:
+      required: true
