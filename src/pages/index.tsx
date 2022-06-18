@@ -262,13 +262,14 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         Start now?
       </Malleable>
       <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
-          Please go to our 
+          Please go to our {' '}
           <a
             target="_blank"
+            rel="noopener"
             href="https://github.com/archlinux-cyou/archlinux.cyou/issues"
           >
             Github repository 
-          </a> 
+          </a> {' '}
           to send a new issues
         </Malleable>
         <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
