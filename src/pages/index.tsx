@@ -190,9 +190,9 @@ export default function Home(props) {
 function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
   return (
     <>
-
-      <Image src="https://raw.githubusercontent.com/archlinux-cyou/archlinux.cyou/master/archlinux-dot-cyou-v1-transparent.png" alt="ArchLinux.cyou" width="200" />
-
+      <Malleable id="title" as="h1" isActive={isEdit} edits={edits}>
+      ArchLinux.cyou
+      </Malleable>
       <div className="features">
         <div className="feature">
           <Malleable
