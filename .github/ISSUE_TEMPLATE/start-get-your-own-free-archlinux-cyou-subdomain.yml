@@ -34,17 +34,17 @@ body:
       placeholder: ex. A
     validations:
       required: true
-    - type: input
+  - type: input
     id: resolution-content
     attributes:
       label: Resolution content
       description: |
-        Support IP,Domain
+        Support IP or domains
       placeholder: ex. 1.1.1.1
     validations:
       required: true
   - type: textarea
-    id: content
+    id: screenshots
     attributes:
       label: Are you a Arch Linux user?
       description: |
