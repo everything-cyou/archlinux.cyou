@@ -17,15 +17,6 @@ body:
     validations:
       required: true
   - type: input
-    id: website
-    attributes:
-      label: The website address or IP
-      description: |
-        For resolving domain names
-      placeholder: ex. https://wow.github.io or 1.1.1.1
-    validations:
-      required: true
-  - type: input
     id: subdomain
     attributes:
       label: What do you want your subdomain prefix to be?
@@ -41,6 +32,15 @@ body:
       description: |
         Support A,AAAA,CNAME
       placeholder: ex. A
+    validations:
+      required: true
+    - type: input
+    id: resolution-content
+    attributes:
+      label: Resolution content
+      description: |
+        Support IP,Domain
+      placeholder: ex. 1.1.1.1
     validations:
       required: true
   - type: textarea
