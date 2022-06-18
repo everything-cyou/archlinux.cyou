@@ -34,6 +34,15 @@ body:
       placeholder: ex. xxx.archlinux.cyou
     validations:
       required: true
+  - type: input
+    id: resolution-type
+    attributes:
+      label: Resolution type
+      description: |
+        Support A,AAAA,CNAME
+      placeholder: ex. A
+    validations:
+      required: true
   - type: textarea
     id: content
     attributes:
