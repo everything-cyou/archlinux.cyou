@@ -1,6 +1,6 @@
-name: Request to amend information
-description: Select this if you would like to request an amendment to your information
-labels: ["Applying"]
+name: Request to change information
+description: Select this if you would like to request an change to your information
+labels: ["Change information"]
 assignees:
   - linlinzzo
 body:
