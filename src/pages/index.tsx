@@ -270,7 +270,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           >
             Github repository 
           </a> {' '}
-          to send a new issues
+          to create a new issues
         </Malleable>
         <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
         Warning
