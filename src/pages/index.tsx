@@ -265,7 +265,8 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           >
             Github repository 
           </a>
-           to PR
+          
+        to PR
         </Malleable>
         <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
         Warning
