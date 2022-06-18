@@ -43,6 +43,15 @@ body:
       placeholder: ex. 1.1.1.1
     validations:
       required: true
+  - type: input
+    id: cloudflare
+    attributes:
+      label: Do you need Cloudflare CDN?
+      description: |
+        Cloudflare CDN can protect your website,Just (y/n)
+      placeholder: ex. yes
+    validations:
+      required: true
   - type: textarea
     id: screenshots
     attributes:
