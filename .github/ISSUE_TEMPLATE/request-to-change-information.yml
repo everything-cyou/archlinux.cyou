@@ -2,7 +2,7 @@ name: Request to change information
 description: Select this if you would like to request an change to your information
 labels: ["Change information"]
 assignees:
-  - linlinzzo
+  - RealLanta
 body:
   - type: markdown
     attributes:
