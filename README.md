@@ -6,5 +6,5 @@
 </h1>
 
   <p align="center">
-Free domain for Arch Linux Lovers!
+Free subdomain for Arch Linux Lovers!
   </p>
