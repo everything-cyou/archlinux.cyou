@@ -257,7 +257,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
         </div>
         <Malleable id="explanation-1" isActive={isEdit} edits={edits}>
         Your website just has to provide prove you are an Arch Linux user to get your own free ArchLinux.cyou subdomain for your website<br />
-          Please go to our{' '}
+        </Malleable>
+        <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+        Start now?
+      </Malleable>
+      <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
+          Please go to our {' '}
           <a
             target="_blank"
             rel="noopener"
@@ -265,13 +270,13 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           >
             Github repository 
           </a>
-
-        to send a new issues
+          <br />
+          to send a new issues
         </Malleable>
-        <Malleable as="h2" id="title-3" isActive={isEdit} edits={edits}>
+        <Malleable as="h2" id="title-4" isActive={isEdit} edits={edits}>
         Warning
       </Malleable>
-        <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
+        <Malleable id="explanation-3" isActive={isEdit} edits={edits}>
           As the owner of the repository, you keep complete control over your published content. But that also means that all rights and duties that come along with publishing a website remain in your responsibility.
         </Malleable>
       </div>
