@@ -172,15 +172,6 @@ export default function Home(props) {
           <Content isEdit={isEdit} edits={edits} />
         )}
       </div>
-      {isEdit ? (
-        <>
-          <Snapshot
-            onCancel={toggleEdit}
-            onShare={share}
-            isSharing={isSharingView}
-          />
-        </>
-      )}
     </>
   );
 }
