@@ -180,8 +180,6 @@ export default function Home(props) {
             isSharing={isSharingView}
           />
         </>
-      ) : (
-        // <Edit onClick={toggleEdit} />
       )}
     </>
   );
