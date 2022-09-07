@@ -264,7 +264,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
           <a
             target="_blank"
             rel="noopener"
-            href="https://github.com/archlinux-cyou/archlinux.cyou/issues"
+            href="https://github.com/everything-cyou/archlinux.cyou/issues"
           >
             Github repository 
           </a> {' '}
