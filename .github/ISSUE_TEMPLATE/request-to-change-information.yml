@@ -9,7 +9,7 @@ body:
       value: |
         Please write "your website name" in the title!
   - type: input
-    id: name
+    id: old-domain
     attributes:
       label: The old subdomain
       description: Please write your old subdomain
